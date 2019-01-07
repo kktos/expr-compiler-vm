@@ -1,0 +1,19 @@
+{
+  "name": "test-vm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc -p . && node ./dist/main.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/benchmark": "^1.0.30",
+    "benchmark": "^2.1.4"
+  },
+  "dependencies": {
+    "recast": "^0.12.6"
+  }
+}
