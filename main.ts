@@ -69,7 +69,7 @@ suite.add('VM1', function() {
 .on('cycle', function(event: any) {
   console.log(String(event.target));
 })
-.on('complete', () => { console.log('Fastest is ' + suite.filter('fastest').map('name')); })
+.on('complete', () => { console.log('Fastest is ' + suite.filter('fastest')); })
 // run async 
 .run({ 'async': true });
 
