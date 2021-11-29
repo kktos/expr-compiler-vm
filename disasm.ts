@@ -115,7 +115,7 @@ export class Disasm {
 
             curIdx++;
 
-			if(noParms || (!isIMM && isREG))
+			if(noParms || (!isIMM && isREG && !isVAR))
 				result+= ''.padStart(4);
 			else
 				result+= wordToHex(prg.CODE[curIdx]);
