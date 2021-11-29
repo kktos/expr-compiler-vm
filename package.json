@@ -10,10 +10,10 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@types/benchmark": "^2.1.0",
+    "@types/benchmark": "^2.1.1",
     "benchmark": "^2.1.4"
   },
   "dependencies": {
-    "recast": "^0.20.4"
+    "recast": "^0.20.5"
   }
 }
